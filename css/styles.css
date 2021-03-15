@@ -3,7 +3,6 @@
 body{
   font-family: 'Noto Sans JP', sans-serif;
 }
-/*customizing the jumbotron*/
 .jumbotron{
   background-image: url(../amani/images/h_img.jpg);
   background-size: cover;
@@ -64,7 +63,6 @@ body{
     margin-left: auto;
     justify-content: space-between;
   }
-  /*positioning the social media icons*/
   li{
     margin-left: auto;
   }
@@ -166,58 +164,3 @@ body{
       width: fit-content;
     }
   
-.contact-section{
-background-image: url("amani/images/c_image.jpg") no repeat center;
-background-size: cover;
-padding: 40px 0;
-}
-.contact-section h1 {
-    text-align: center;
-    color:darkgrey;
-}
-.border{
-    width: 100px;
-    height: 10px;
-    background: #34495e;
-    margin: 40px auto;
-}
-.contact-form {
-    max-width: 600px;
-    margin: auto;
-    padding: 0 10px;
-    overflow: hidden;
-}
-.contact-form-text{
-    display: block;
-    width: 100%;
-    box-sizing: border-box;
-    margin: 16px 0;
-    background: #111;
-    padding: 20px 40px;
-    transition: 0.5s;
-    color:#ddd;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-@media (max-width: 992px) {
-
-}
-@media (max-width: 768px) {
-
-}
-@media (max-width: 576px) {
-    
-}
